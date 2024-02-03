@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIGHTWAVES ONLINE TRAVEL WEBSITE</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="lightwaves.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>L</span>ightwaves Travel</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action=" try2.html" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="try2.html">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email"required  />
+        <input type="password" class="box" placeholder="enter your password"required  />
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        
+        <p>don't have an account? <a href="sign up.html">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3 style="color: #FBB117";>adventure is worthwhile</h3>
+		<br>
+        <p style="color: #614051">discover new places with us, adventure awaits</p>
+		<br>
+        <a href="#" class="btn">discover more</a>
+    </div>
+    <div class="controls">
+        <span class="vid-btn active" video src ="C:\Users\subal\Downloads\video.mp4"></span>
+        <span class="vid-btn" video src ="C:\Users\subal\Downloads\video 2.mp4"></span>
+        <span class="vid-btn" video src="C:\Users\subal\Downloads\vid-3.mp4"></span>
+        <span class="vid-btn" video src="C:\Users\subal\Downloads\vid-4.mp4"></span>
+        <span class="vid-btn" video src="C:\Users\subal\Downloads\vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="C:\Users\subal\Downloads\video.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="https://noritter.com/Bboard/thumb_new.php?file=/upload/blogbody/368846_1625159770_0.png&width=600" alt="">
+        </div>
+
+        <form action="try2.html">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name"required />
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests"required />
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date"required />
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date"required />
+            </div>
+            <input type="submit" class="btn" value="book now" onclick="myFunction()">
+        </form>
+
+    </div>
+
+</section>
+
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="https://www.airasia.co.in/content/dam/air-asia/static-content/AdobeStock_200559473.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                <p style="font-family:lobster;">MUMBAI with different view <br> come,see and get conquered.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#" class="btn"onclick="myFunction()">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://i.redd.it/5f0dff0mfjk71.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> hawaii </h3>
+                <p>Explore and enjoy all that hawaii has to offer!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#" class="btn"onclick="myFunction()">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://blog.hhmc.com.au/hubfs/old-warehouses-campbell-s-cove-jetty-sydney-australia-new-south-wales.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> sydney </h3>
+                <p>A bright, modern city embedded in nature, where gallery-hopping, surfing, and fine-dining can all take place in a single day</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#" class="btn"onclick="myFunction()">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://static.wixstatic.com/media/08b00c_eef6492338904c829e364b0dea83e24b~mv2.jpg/v1/fill/w_1000,h_667,al_c,q_90,usm_0.66_1.00_0.01/08b00c_eef6492338904c829e364b0dea83e24b~mv2.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
+                <p>Phenomenal Experience</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#" class="btn"onclick="myFunction()">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://static.vecteezy.com/ti/fotos-gratis/p2/2057637-mt-fuji-with-chureito-pagoda-in-japan-in-autumn-gr%C3%A1tis-foto.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> tokyo </h3>
+                <p>Tokyo is like living in the future</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#" class="btn" onclick="myFunction()">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://stat.ameba.jp/user_images/20200107/08/scarabe35/f7/45/j/o1080080114691985304.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> eygpt </h3>
+                <p>Wonderful Ereen!</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#" class="btn" onclick="myFunction()">book now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p> hotel that provides minimum amenities and services for a lower price than a regular hotel in the area.Budget prices vary depending on the season, destination, the amenities, the quality and the level of service. </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>This sector encompasses all types of establishments that supply food and beverages for consumption, from fine dining enterprises, ethnic restaurants and institutional food outlets to catering firms, pubs and lounges. </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safety guide</h3>
+            <p> we ensure your safety </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p> enjoy the travel around the world</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>travel fast around the travel </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>enjoy your thrilling adventures </p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="C:\Users\subal\OneDrive\Desktop\tour and travel website\tour and travel website\images\g-1.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>you can see amazing places heree..</p>
+                <a href="https://de.wikipedia.org/wiki/Ko_Nang_Yuan" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="C:\Users\subal\OneDrive\Desktop\tour and travel website\tour and travel website\images\g-2.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>you can see amazing places heree..</p>
+                <a href="https://en.wikipedia.org/wiki/Columbus,_Ohio" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="C:\Users\subal\OneDrive\Desktop\tour and travel website\tour and travel website\images\g-3.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>you can see amazing places heree..</p>
+                <a href="https://en.wikipedia.org/wiki/Acropolis_of_Athens" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="C:\Users\subal\OneDrive\Desktop\tour and travel website\tour and travel website\images\g-4.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>you can see amazing places heree..</p>
+                <a href="https://en.wikipedia.org/wiki/Seminyak" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="C:\Users\subal\OneDrive\Desktop\tour and travel website\tour and travel website\images\g-5.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>you can see amazing places heree..</p>
+                <a href="https://en.wikipedia.org/wiki/Piazza_dei_Miracoli" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="C:\Users\subal\OneDrive\Desktop\tour and travel website\tour and travel website\images\g-6.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>you can see amazing places heree..</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="C:\Users\subal\OneDrive\Desktop\tour and travel website\tour and travel website\images\g-7.jpg"" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>you can see amazing places heree..</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="C:\Users\subal\OneDrive\Desktop\tour and travel website\tour and travel website\images\g-8.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>you can see amazing places heree..</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="C:\Users\subal\OneDrive\Desktop\tour and travel website\tour and travel website\images\g-9.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <p>you can see amazing places heree..</p>
+                <a href="https://en.wikipedia.org/wiki/Giza_pyramid_complex" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="https://wishthisyear.com/wp-content/uploads/2020/09/germany-girls-whatsapp-group-links.jpg" alt="">
+                    <h3>natasha</h3>
+                    <p>Our holiday was a varied mixture personalised to our interests in historic towns and sites, architecture, textiles, rural life, wildlife and even the rather niche subject of railways.A well planned , varied experience with excellent prior planning and local knowledge. Very interesting, different hotels. The local drivers and guides made us feel welcome and at home in their communities</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="http://explainbes.com/images/pic2.jpg" alt="">
+                    <h3>tony stark</h3>
+                    <p>Our holiday was a varied mixture personalised to our interests in historic towns and sites, architecture, textiles, rural life, wildlife and even the rather niche subject of railways.A well planned , varied experience with excellent prior planning and local knowledge. Very interesting, different hotels. The local drivers and guides made us feel welcome and at home in their communities</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fdam%2Fimageserve%2F1158027047%2F0x0.jpg%3Ffit%3Dscale" alt="">
+                    <h3>wanda</h3>
+                    <p>Our holiday was a varied mixture personalised to our interests in historic towns and sites, architecture, textiles, rural life, wildlife and even the rather niche subject of railways.A well planned , varied experience with excellent prior planning and local knowledge. Very interesting, different hotels. The local drivers and guides made us feel welcome and at home in their communities</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="https://www.bizasialive.com/wp/wp-content/uploads/2018/04/Shahid-Kapoor-Batti-Gul-Meter-Chalu-1900x.jpg" alt="">
+                    <h3>thor</h3>
+                    <p>Our holiday was a varied mixture personalised to our interests in historic towns and sites, architecture, textiles, rural life, wildlife and even the rather niche subject of railways.A well planned , varied experience with excellent prior planning and local knowledge. Very interesting, different hotels. The local drivers and guides made us feel welcome and at home in their communities</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="data:image/png;base64,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" alt="">
+        </div>
+
+        <form action="try2.html">
+            <div class="inputBox">
+                <input type="text" placeholder="name"required  />
+                <input type="email" placeholder="email"required  />
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number"required  />
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"required  /></textarea>
+            <input type="submit" class="btn" value="send message" onclick="myFunction()">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+<!-- review writing section starts -->
+
+<section class="reviewwriting" id="rw">
+<h1 class="heading">
+<span>W</span>
+<span>e</span>
+<span>.</span>
+<span>a</span>
+<span>p</span>
+<span>p</span>
+<span>r</span>
+<span>e</span>
+<span>c</span>
+<span>i</span>
+<span>a</span>
+<span>t</span>
+<span>e</span>
+<span>.</span>
+<span>y</span>
+<span>o</span>
+<span>u</span>
+<span>r</span>
+<span>.</span>
+<span>r</span>
+<span>e</span>
+<span>v</span>
+<span>i</span>
+<span>e</span>
+<span>w</span>
+</h1>
+<div class="opinion">
+<form action="try2.html" method="POST" name="myForm" id="review writing" ">
+
+            <div class="inputBox">
+			<h2 class="label"> NAME</h2>
+                <input type="text" name="fname" placeholder="enter your name" size="50" required  />
+				<br>
+				<h2 class="label"> EMAIL</h2>
+                <input type="email" name="mail id" placeholder="enter your mail id" required />
+            </div>
+			<br>
+			<div class="rate">
+			<h2 class="label"> give your stars for us</h2>
+			
+    <input type="radio" id="star5" name="rate" value="5" />
+    <label for="star5" title="text">5 stars</label>
+    <input type="radio" id="star4" name="rate" value="4"  />
+    <label for="star4" title="text">4 stars</label>
+    <input type="radio" id="star3" name="rate" value="3"  />
+    <label for="star3" title="text">3 stars</label>
+    <input type="radio" id="star2" name="rate" value="2"  />
+    <label for="star2" title="text">2 stars</label>
+    <input type="radio" id="star1" name="rate" value="1"   />
+    <label for="star1" title="text">1 star</label>
+	<br>
+	<br>
+  </div>
+  <br>
+            <textarea placeholder="write your review about us"  id="" cols="30" rows="10" required  ></textarea>
+			<br>
+			<button class="btn" onclick="myFunction()">Send</button>
+			</div>
+			
+			</section>
+			
+			
+			
+<!-- review writing ends>
+
+
+<!-- brand section  -->
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="C:\Users\subal\OneDrive\Desktop\tour and travel website\tour and travel website\images\1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="C:\Users\subal\OneDrive\Desktop\tour and travel website\tour and travel website\images\2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="C:\Users\subal\OneDrive\Desktop\tour and travel website\tour and travel website\images\3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="C:\Users\subal\OneDrive\Desktop\tour and travel website\tour and travel website\images\4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="C:\Users\subal\OneDrive\Desktop\tour and travel website\tour and travel website\images\5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="C:\Users\subal\OneDrive\Desktop\tour and travel website\tour and travel website\images\6.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>this is world's largest travel platform*, helps 463 million travelers each month** make every trip their best trip. Travelers across the globe use the lightwaves travel site and app to browse more than 859 million reviews and opinions of 8.6 million accommodations, restaurants, experiences, airlines and cruises. Whether planning or on a trip, travelers turn to lightwaves travel to compare low prices on hotels, flights and cruises, book popular tours and attractions, as well as reserve tables at great restaurants. lightwaves travel,the ultimate travel companion, is available in 49 markets and 28 languages.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> VIT web designers </span> | all rights reserved! </h1>
+
+</section>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="lightwaves.js"></script>
+
+</body>
+
+</html>
